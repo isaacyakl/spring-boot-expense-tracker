@@ -1,0 +1,31 @@
+_id: req_20b75d670b1b41a38362f9a84f25a49c
+type: Request
+parentId: wrk_c54fa00026c34fa7b4dad961b2992d20
+modified: 1691990179787
+created: 1691684365794
+url: "{{ _.base_url }}/users/register"
+name: registerUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"firstName":"David",
+    	"lastName":"Smith",
+    	"email":"david@testmail.com",
+    	"password":"test123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691684365794
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

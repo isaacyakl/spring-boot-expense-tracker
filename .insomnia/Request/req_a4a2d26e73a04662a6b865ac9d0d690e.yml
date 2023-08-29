@@ -1,0 +1,26 @@
+_id: req_a4a2d26e73a04662a6b865ac9d0d690e
+type: Request
+parentId: wrk_c54fa00026c34fa7b4dad961b2992d20
+modified: 1692001917929
+created: 1691685286464
+url: "{{ _.base_url }}/categories/1/transactions"
+name: getAllTransactions
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_dfa52d11fa7442f9bd45da4164bece5d
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTE5OTk4MTYsImV4cCI6MTY5MjAwNzAxNiwidXNlcklkIjoyLCJlbWFpbCI6ImRhdmlkQHRlc3RtYWlsLmNvbSIsImZpcnN0TmFtZSI6IkRhdmlkIiwibGFzdE5hbWUiOiJTbWl0aCJ9.TmufM1UeKy9uHOIEWDPZyHfxYEbSDCJc-P2wZ_MlEIM
+    description: ""
+authentication: {}
+metaSortKey: -1691685286464
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

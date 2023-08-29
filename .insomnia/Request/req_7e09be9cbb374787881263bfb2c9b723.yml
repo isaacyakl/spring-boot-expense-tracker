@@ -1,0 +1,26 @@
+_id: req_7e09be9cbb374787881263bfb2c9b723
+type: Request
+parentId: wrk_c54fa00026c34fa7b4dad961b2992d20
+modified: 1692002998420
+created: 1691685563760
+url: "{{ _.base_url }}/categories/1"
+name: deleteCategoryWithAllTransactions
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_2bfbde89406d43448eff912a9b306545
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTE5OTk4MTYsImV4cCI6MTY5MjAwNzAxNiwidXNlcklkIjoyLCJlbWFpbCI6ImRhdmlkQHRlc3RtYWlsLmNvbSIsImZpcnN0TmFtZSI6IkRhdmlkIiwibGFzdE5hbWUiOiJTbWl0aCJ9.TmufM1UeKy9uHOIEWDPZyHfxYEbSDCJc-P2wZ_MlEIM
+    description: ""
+authentication: {}
+metaSortKey: -1691685563760
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

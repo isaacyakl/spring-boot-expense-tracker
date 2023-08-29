@@ -1,0 +1,26 @@
+_id: req_2ccffa147d5c441f952ce2a647548d42
+type: Request
+parentId: wrk_c54fa00026c34fa7b4dad961b2992d20
+modified: 1692002492408
+created: 1691685448887
+url: "{{ _.base_url }}/categories/1/transactions/1000"
+name: deleteTransactions
+description: ""
+method: DELETE
+body: {}
+parameters: []
+headers:
+  - id: pair_53b3cfc7294744c08aa42558f05b8860
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTE5OTk4MTYsImV4cCI6MTY5MjAwNzAxNiwidXNlcklkIjoyLCJlbWFpbCI6ImRhdmlkQHRlc3RtYWlsLmNvbSIsImZpcnN0TmFtZSI6IkRhdmlkIiwibGFzdE5hbWUiOiJTbWl0aCJ9.TmufM1UeKy9uHOIEWDPZyHfxYEbSDCJc-P2wZ_MlEIM
+    description: ""
+authentication: {}
+metaSortKey: -1691685448887
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

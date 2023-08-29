@@ -1,0 +1,35 @@
+_id: req_ee0558c1ac4140119421a8a73b864a7b
+type: Request
+parentId: wrk_c54fa00026c34fa7b4dad961b2992d20
+modified: 1691999856097
+created: 1691685126425
+url: "{{ _.base_url }}/categories/1"
+name: updateCategory
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title":"Shopping",
+    	"description":"shopping expenses"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_527929ac58c04cd7be511d65b27170cf
+  - id: pair_3e7413b4393e413594629d4b4d12a817
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTE5OTk4MTYsImV4cCI6MTY5MjAwNzAxNiwidXNlcklkIjoyLCJlbWFpbCI6ImRhdmlkQHRlc3RtYWlsLmNvbSIsImZpcnN0TmFtZSI6IkRhdmlkIiwibGFzdE5hbWUiOiJTbWl0aCJ9.TmufM1UeKy9uHOIEWDPZyHfxYEbSDCJc-P2wZ_MlEIM
+    description: ""
+authentication: {}
+metaSortKey: -1691685126425
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

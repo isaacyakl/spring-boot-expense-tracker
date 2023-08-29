@@ -1,0 +1,29 @@
+_id: req_7201b281ae8c465982452fa5019c7c0c
+type: Request
+parentId: wrk_c54fa00026c34fa7b4dad961b2992d20
+modified: 1691990740019
+created: 1691684917889
+url: "{{ _.base_url }}/users/login"
+name: loginUser
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"email":"david@testmail.com",
+    	"password":"test123"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+authentication: {}
+metaSortKey: -1691684365744
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

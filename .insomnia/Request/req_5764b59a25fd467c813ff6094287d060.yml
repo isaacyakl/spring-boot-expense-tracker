@@ -1,0 +1,36 @@
+_id: req_5764b59a25fd467c813ff6094287d060
+type: Request
+parentId: wrk_c54fa00026c34fa7b4dad961b2992d20
+modified: 1692002224372
+created: 1691685386712
+url: "{{ _.base_url }}/categories/1/transactions/1000"
+name: updateTransaction
+description: ""
+method: PUT
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"amount": 7000,
+    	"note": "new year shopping",
+    	"transactionDate": 1577817000000
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_224b367b39f347a8b0d8c94f7a9f8909
+  - id: pair_06a89c8805364b9cbeda67825874452c
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTE5OTk4MTYsImV4cCI6MTY5MjAwNzAxNiwidXNlcklkIjoyLCJlbWFpbCI6ImRhdmlkQHRlc3RtYWlsLmNvbSIsImZpcnN0TmFtZSI6IkRhdmlkIiwibGFzdE5hbWUiOiJTbWl0aCJ9.TmufM1UeKy9uHOIEWDPZyHfxYEbSDCJc-P2wZ_MlEIM
+    description: ""
+authentication: {}
+metaSortKey: -1691685090476.5
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

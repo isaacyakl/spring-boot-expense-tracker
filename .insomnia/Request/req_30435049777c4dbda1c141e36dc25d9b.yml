@@ -1,0 +1,26 @@
+_id: req_30435049777c4dbda1c141e36dc25d9b
+type: Request
+parentId: wrk_c54fa00026c34fa7b4dad961b2992d20
+modified: 1692004768289
+created: 1691685109030
+url: "{{ _.base_url }}/categories/2"
+name: getCategoryById
+description: ""
+method: GET
+body: {}
+parameters: []
+headers:
+  - id: pair_2aa1cf58def740a5afcc06e4be143f16
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTIwMDQ2ODgsImV4cCI6MTY5MjAxMTg4OCwidXNlcklkIjoyLCJlbWFpbCI6ImRhdmlkQHRlc3RtYWlsLmNvbSIsImZpcnN0TmFtZSI6IkRhdmlkIiwibGFzdE5hbWUiOiJTbWl0aCJ9.yf8r2D3DFsFrFx6mHkthQnZ6qOP1w5nu42zB6zeRfmU
+    description: ""
+authentication: {}
+metaSortKey: -1691684710161
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global

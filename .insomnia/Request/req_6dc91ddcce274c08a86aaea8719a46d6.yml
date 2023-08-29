@@ -1,0 +1,35 @@
+_id: req_6dc91ddcce274c08a86aaea8719a46d6
+type: Request
+parentId: wrk_c54fa00026c34fa7b4dad961b2992d20
+modified: 1691998758710
+created: 1691684957398
+url: "{{ _.base_url }}/categories"
+name: createCategory
+description: ""
+method: POST
+body:
+  mimeType: application/json
+  text: |-
+    {
+    	"title":"Shopping",
+    	"description":"this is for recording all my shopping transactions"
+    }
+parameters: []
+headers:
+  - name: Content-Type
+    value: application/json
+    id: pair_a67d8ef4f3eb46cb9c860df213852e26
+  - id: pair_f9031acc73fe45699c66bd5de526dc57
+    name: Authorization
+    value: Bearer
+      eyJhbGciOiJIUzI1NiJ9.eyJpYXQiOjE2OTE5OTg0ODIsImV4cCI6MTY5MjAwNTY4MiwidXNlcklkIjoyLCJlbWFpbCI6ImRhdmlkQHRlc3RtYWlsLmNvbSIsImZpcnN0TmFtZSI6IkRhdmlkIiwibGFzdE5hbWUiOiJTbWl0aCJ9.EUKa8I3D9bdf3rNRMuvW7B8aY148aVod7Nn2gd82HzE
+    description: ""
+authentication: {}
+metaSortKey: -1691684365694
+isPrivate: false
+settingStoreCookies: true
+settingSendCookies: true
+settingDisableRenderRequestBody: false
+settingEncodeUrl: true
+settingRebuildPath: true
+settingFollowRedirects: global
